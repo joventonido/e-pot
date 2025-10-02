@@ -26,10 +26,9 @@ const About = () => {
           </h1>
           {/* Descr */}
           <p className="text-xs sm:text-sm md:text-base font-medium text-gray-700 dark:text-gray-500">
-            Don't be afraid to take risks. Stepping outside your comfort zone is
-            where the real growth happens. Whether it's trying a new hobby,
-            traveling to a new place, or speaking up for what you believe in,
-            those risks often lead to the most rewarding experiences.
+            {
+              "Don't be afraid to take risks. Stepping outside your comfort zone is where the real growth happens. Whether it's trying a new hobby, traveling to a new place, or speaking up for what you believe in, those risks often lead to the most rewarding experiences."
+            }
           </p>
         </div>
       </div>
