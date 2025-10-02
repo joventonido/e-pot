@@ -1,6 +1,6 @@
 import React from "react";
 import Nav from "./Nav";
-import MobileNavbar from "./MobileNavbar";
+// import MobileNavbar from "./MobileNavbar";
 
 const ResponsiveNav = () => {
   return (

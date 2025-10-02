@@ -1,4 +1,3 @@
-// app/components/Nav.js or Nav.tsx (App Router)
 "use client"; // Needed for usePathname() in App Router
 
 import Logo from "@/components/Helper/Logo";

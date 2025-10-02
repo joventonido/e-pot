@@ -8,7 +8,9 @@ const Contact = () => {
         <div>
           <h1>Contact</h1>
           <p>
-            Welcome to our website! We're excited to share our story with you.
+            {
+              "Welcome to our website! We're excited to share our story with you."
+            }
           </p>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit
