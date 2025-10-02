@@ -1,0 +1,64 @@
+.container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.listItem {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between; /* Added for spacing between name and title */
+  align-items: center;
+}
+
+.employeeInfo {
+  display: flex; /* Make employee info a flex container */
+  align-items: center; /* Vertically center name and title */
+  gap: 10px; /* Add some gap between them */
+}
+
+.name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.title {
+  font-size: 16px;
+  color: #7f8c8d;
+}
+
+/* Responsive Styles (Media Queries) */
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+
+  .listItem {
+    padding: 12px;
+    flex-direction: column; /* Stack name and title on small screens */
+    align-items: flex-start;
+  }
+    .name{
+        margin-bottom: 5px;
+    }
+}
