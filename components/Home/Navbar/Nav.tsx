@@ -4,7 +4,7 @@ import Logo from "@/components/Helper/Logo";
 import ThemeToggle from "@/components/Helper/ThemeToggle";
 import { navLinks } from "@/constants/constants";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+// import { usePathname } from "next/navigation";
 import { FiDownloadCloud } from "react-icons/fi";
 import { HiBars3BottomRight } from "react-icons/hi2";
 import React, { useEffect } from "react";
