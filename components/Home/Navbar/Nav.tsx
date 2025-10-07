@@ -14,7 +14,7 @@ type Props = {
 };
 
 const Nav = (openNav: Props) => {
-  const pathname = usePathname();
+  // const pathname = usePathname();
   const [navBg, setNavBg] = React.useState(false);
   useEffect(() => {
     const handler = () => {
