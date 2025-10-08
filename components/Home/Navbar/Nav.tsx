@@ -16,6 +16,7 @@ type Props = {
 const Nav = (openNav: Props) => {
   // const pathname = usePathname();
   const [navBg, setNavBg] = React.useState(false);
+
   useEffect(() => {
     const handler = () => {
       if (window.scrollY >= 90) setNavBg(true);
