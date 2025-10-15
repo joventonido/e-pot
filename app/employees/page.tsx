@@ -10,7 +10,7 @@ export default function EmployeeList() {
   type User = { id: 0; name: ""; role: "" };
 
   return (
-    <div className="p-8">
+    <div className="relative w-full h-screen flex justify-center flex-col p-4">
       <h1 className="text-2xl font-bold mb-4">Employee List</h1>
       <ul className="space-y-3">
         {employees.map((emp: User) => (
