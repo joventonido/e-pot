@@ -1,11 +1,11 @@
 import React from "react";
 import Logo from "../Helper/Logo";
-import { FaFacebookF, FaTwitter, FaYoutube } from "react-icons/fa";
+import { FaFacebookF, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
     <div className="pt-16 pb-16 dark:bg-gray-950">
-      <div className="w-[80%] mx-auto items-start grid grid-cols-1 sm:grid-cols-2 grid md:grid-cols-2 lg:grid-cols-4 gap-10">
+      <div className="w-4/5 mx-auto grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4 items-start">
         {/* 1st part */}
         <div>
           <Logo />
@@ -18,6 +18,7 @@ const Footer = () => {
             <FaFacebookF />
             <FaTwitter />
             <FaYoutube />
+            <FaLinkedin />
           </div>
         </div>
         {/* 2nd part */}
@@ -91,6 +92,9 @@ const Footer = () => {
           </span>
           <span className="text-gray-500 hover:text-gray-800">
             <FaYoutube />
+          </span>
+          <span className="text-gray-500 hover:text-gray-800">
+            <FaLinkedin />
           </span>
         </div>
       </div>
