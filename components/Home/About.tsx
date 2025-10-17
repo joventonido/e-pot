@@ -7,7 +7,11 @@ const About = () => {
     <div className="pt-16 pb-16 bg-gray-100 dark:bg-gray-950">
       <div className="w-[90%] md:w-[70%] mx-auto grid grid-cols-1 xl:grid-cols-5 gap-14 items-center">
         {/* Image Content */}
-        <div className="xl:col-span-2">
+        <div
+          data-aos="zoom-in"
+          data-aos-anchor-placement="top-center"
+          className="xl:col-span-2"
+        >
           <Image
             src="/images/ebooks.jpg"
             alt="image"

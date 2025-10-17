@@ -52,6 +52,9 @@ const Benefits = () => {
             {benefits.slice(0, 2).map((benefit, index) => (
               <div
                 key={index}
+                data-aos="fade-right"
+                data-aos-anchor-placement="top-center"
+                data-aos-delay={index * 100}
                 className="p-6 bg-white dark:bg-blue-950 shadow-md rounded-xl text-left border border-gray-200 dark:border-none"
               >
                 <div className="w-12 h-12 mb-4 rounded-full bg-orange-500 flex items-center justify-center flex-col">
@@ -68,7 +71,12 @@ const Benefits = () => {
           </div>
           {/* Center Image */}
 
-          <div className="flex justify-center">
+          <div
+            data-aos="zoom-in"
+            data-aos-anchor-placement="top-center"
+            data-aos-delay="300"
+            className="flex justify-center"
+          >
             <Image
               src="/images/ebooks.jpg"
               width={900}
@@ -82,6 +90,9 @@ const Benefits = () => {
             {benefits.slice(2).map((benefit, index) => (
               <div
                 key={index}
+                data-aos="fade-left"
+                data-aos-anchor-placement="top-center"
+                data-aos-delay={300 + index * 100}
                 className="p-6 bg-white dark:bg-blue-950 shadow-md rounded-xl text-left border border-gray-200 dark:border-none"
               >
                 <div className="w-12 h-12 mb-4 rounded-full bg-orange-500 flex items-center justify-center flex-col">
