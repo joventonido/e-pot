@@ -1,10 +1,10 @@
 import React from "react";
 
-interface ServiceInfoProps {
+type ServiceInfoProps = {
   params: {
     id: string;
   };
-}
+};
 
 const ServiceInfo = async ({ params }: ServiceInfoProps) => {
   const id = params.id;
