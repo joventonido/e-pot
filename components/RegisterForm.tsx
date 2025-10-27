@@ -26,7 +26,7 @@ export default function RegisterForm() {
       <div className="w-[90%] md:w-[80%] mx-auto items-center">
         <form
           onSubmit={handleSubmit}
-          className="w-full bg-white p-8 shadow-md rounded-lg flex flex-col gap-4"
+          className="w-full bg-white p-8 dark:bg-blue-950 shadow-md rounded-lg flex flex-col gap-4"
         >
           <h2 className="text-2xl font-semibold mb-4">Create an Account</h2>
 
