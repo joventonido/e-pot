@@ -5,6 +5,7 @@ import ResponsiveNav from "@/components/Home/Navbar/ResponsiveNav";
 import Provider from "@/components/HOC/Provider";
 import Footer from "@/components/Home/Footer";
 import ScrollToTop from "@/components/Helper/ScrollToTop";
+// import { usePathname } from "next/navigation";
 // import About from "@/app/about/page";
 
 const geistSans = Geist({
@@ -27,6 +28,9 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  // const pathname = usePathname();
+  // const noFooterRoutes = ["/login", "/register", "/dashboard"];
+  // const hideFooter = noFooterRoutes.includes(pathname);
   return (
     <html lang="en" suppressHydrationWarning>
       <body
