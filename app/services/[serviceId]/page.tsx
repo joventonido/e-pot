@@ -1,7 +1,7 @@
 import React from "react";
 
 // type PageProps = {
-//   params: { id: string };
+//   params: { serviceId: string };
 // };
 
 const ServiceInfo = async ({
@@ -9,7 +9,7 @@ const ServiceInfo = async ({
 }: {
   params: Promise<{ serviceId: string }>;
 }) => {
-  const serviceId = (await params).serviceId;
+  const { serviceId } = await params;
   return (
     <div className="relative w-full h-screen flex justify-center flex-col">
       <div className="w-[90%] md:w-[80%] mx-auto items-center grid grid-cols-1 xl:grid-cols-2 gap-10">
