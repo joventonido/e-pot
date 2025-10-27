@@ -1,12 +1,10 @@
 import React from "react";
 
-type ServiceInfoProps = {
-  params: {
-    id: string;
-  };
+type PageProps = {
+  params: { id: string };
 };
 
-const ServiceInfo = async ({ params }: ServiceInfoProps) => {
+const ServiceInfo = async ({ params }: PageProps) => {
   const id = (await params).id;
   return (
     <div className="relative w-full h-screen flex justify-center flex-col">
